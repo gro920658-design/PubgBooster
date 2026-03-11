@@ -13,7 +13,7 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
       - name: Unzip project
-        run: unzip PubgBooster.zip
+        run: unzip "PubgBooster (3).zip"
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
       - name: Build APK
